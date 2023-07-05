@@ -33,17 +33,15 @@ body {  background-color: #FFFFFF;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    marging: 0 auto;
+    margin: 0 auto;
 }
 
 .header { background-color: #FFFFFF;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
     display: flex;
-    border-bottom: 1px var(--cornflower);
+    border-bottom: 1px solid var(--cornflower);
     align-items: center;
-    margin: 0 auto;
-}
+   }
  
 
 .header-container {display: flex;
