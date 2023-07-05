@@ -41,8 +41,11 @@ body {  background-color: #FFFFFF;
     padding-bottom: 25.5px;
     display: flex;
     gap: 76px;
+    border: 1px var(--cornflower)
 }
-.container header { display: flex;
+ 
+
+.header-container {display: flex;
     align-items: center;
 }
 
