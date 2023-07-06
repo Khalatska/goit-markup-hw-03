@@ -285,6 +285,7 @@ img{ display: block;}
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
     
 }
 
@@ -302,13 +303,14 @@ img{ display: block;}
     padding: 12px 24px;
     border: 1px solid var(--cornflower);
     border-radius: 4px;
-    margin-bottom: 72px;
+    
     
    
 }
 .btn-menu-item:hover,
 .btn-menu-item:focus{ color: var(--white);
     background-color: var(--ocean);
+    border: 1px solid transparent;
 
 }
 .service { background-color: var(--white);
@@ -322,17 +324,21 @@ img{ display: block;}
 }
 .service-list-link {text-decoration: none;
 }
+
+.service-title-text { padding: 32px 16px;
+    border: 1px solid var(--cornflower);
+    border-top: none;
+
+}
 .service-item-title { color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px
 }
 .service-item-text { color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
 }
