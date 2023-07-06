@@ -37,8 +37,11 @@ body {  background-color: #FFFFFF;
 }
 
 .top { background-color: #FFFFFF;
-    display: flex;
     border-bottom: 1px solid var(--cornflower);
+
+}
+.header {  
+    display: flex;
     align-items: center;
    }
  
