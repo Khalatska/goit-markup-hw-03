@@ -44,6 +44,7 @@ body {  background-color: #FFFFFF;
  
 
 .header-container {display: flex;
+    border-bottom: 1px solid var(--cornflower);
 }
 
 .header-logo-link { color: var(--iris);
@@ -55,6 +56,7 @@ body {  background-color: #FFFFFF;
     text-transform: uppercase;
     margin-right: 76px;
     padding: 24px 0;
+    
 }
 
 .header-logo-link .studio{ color: var(--navyblue)}
@@ -63,7 +65,8 @@ body {  background-color: #FFFFFF;
     gap: 40px;
 }
 
-.header-item {
+.header-item { 
+    
 }
 
 .header-item-menu { color: var(--navyblue);
