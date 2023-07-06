@@ -36,7 +36,7 @@ body {  background-color: #FFFFFF;
     margin: 0 auto;
 }
 
-.header { background-color: #FFFFFF;
+.top { background-color: #FFFFFF;
     display: flex;
     border-bottom: 1px solid var(--cornflower);
     align-items: center;
@@ -66,7 +66,7 @@ body {  background-color: #FFFFFF;
 }
 
 .header-item { 
-    
+
 }
 
 .header-item-menu { color: var(--navyblue);
