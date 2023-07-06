@@ -58,7 +58,7 @@ body {  background-color: #FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding: 24px 0;
+   
     
 }
 
@@ -69,6 +69,7 @@ body {  background-color: #FFFFFF;
 }
 
 .header-item { 
+    padding: 24px 0;
 
 }
 
