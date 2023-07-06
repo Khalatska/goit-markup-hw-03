@@ -40,7 +40,6 @@ body {  background-color: #FFFFFF;
     display: flex;
     border-bottom: 1px solid var(--cornflower);
     align-items: center;
-    border-bottom: 1px solid var(--cornflower);
    }
  
 
@@ -255,11 +254,12 @@ img{ display: block;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 
 }
 .footer-logo-link .studio-wight { color:var(--cloud);
-    display: inline-block;
-    margin-bottom: 16px;
+    
 }
 
 
