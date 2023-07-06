@@ -43,6 +43,7 @@ body {  background-color: #FFFFFF;
 .header {  
     display: flex;
     align-items: center;
+    padding: 24px 0;
    }
  
 
@@ -57,16 +58,14 @@ body {  background-color: #FFFFFF;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
-   
-    
+    margin-right: 76px; 
 }
 
 .header-logo-link .studio{ color: var(--navyblue)}
 
 .header-list { display: flex; 
     gap: 40px;
-    padding: 24px 0;
+    
 }
 
 .header-item { 
